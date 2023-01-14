@@ -342,7 +342,7 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Crypto Devs</title>
+				<title>DEX Crypto Devs</title>
 				<meta name="description" content="Whitelist-Dapp" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
