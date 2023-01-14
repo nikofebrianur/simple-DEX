@@ -106,7 +106,7 @@ export default function Home() {
 	const _addLiquidity = async () => {
 		try {
 			const addEtherWei = utils.parseEther(addEther.toString());
-			if (!addCDTokens.eq(zero) && !addEtherWai.eq(zero)) {
+			if (!addCDTokens.eq(zero) && !addEtherWei.eq(zero)) {
 				const signer = await getProviderOrSigner(true);
 				setLoading(true);
 				await addLiquidity(

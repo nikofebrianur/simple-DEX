@@ -49,7 +49,7 @@ export const getLPTokensBalance = async (provider, address) => {
 	}
 };
 
-export const getReserveOfTokens = async (provider) => { 
+export const getReserveOfCDTokens = async (provider) => { 
 	try {
 		const exchangeContract = new Contract
 		(
