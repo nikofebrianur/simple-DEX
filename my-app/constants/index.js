@@ -425,8 +425,8 @@ export const TOKEN_CONTRACT_ABI = [
       "stateMutability": "payable",
       "type": "receive"
     }
-  ]
-export const TOKEN_CONTRACT_ADDRESS = 0xA9fC651Bf50663DEd03A581D1A5B8aE1f4686aD1
+  ];
+export const TOKEN_CONTRACT_ADDRESS = "0xA9fC651Bf50663DEd03A581D1A5B8aE1f4686aD1";
 export const EXCHANGE_CONTRACT_ABI = [
     {
       "inputs": [
@@ -838,5 +838,5 @@ export const EXCHANGE_CONTRACT_ABI = [
       "stateMutability": "nonpayable",
       "type": "function"
     }
-  ]
-export const EXCHANGE_CONTRACT_ADDRESS = 0x7360cDf8030EB0C2c216F903ae7b8440bF4991F4
+  ];
+export const EXCHANGE_CONTRACT_ADDRESS = "0x7360cDf8030EB0C2c216F903ae7b8440bF4991F4";
