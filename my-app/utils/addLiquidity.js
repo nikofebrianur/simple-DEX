@@ -29,7 +29,7 @@ export const addLiquidity = async (
 		await tx.wait();
 		tx = await exchangeContract.addLiquidity(
 			addCDAmountWei, {
-				value: addEtherAmountWei
+				value: addEtherAmountWei,
 			}
 		);
 		await tx.wait();
